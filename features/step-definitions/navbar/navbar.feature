@@ -26,7 +26,6 @@ Feature: Navbar
 		And I click on the Syarat dan Ketentuan button
 		Then I should be navigated to the Syarat dan Ketentuan page
 
-	@runThis
 	Scenario Outline: Navbar should have Login button and show the Login Modal
 		Given I am on the Mamikos Homepage
 		Then I should see the Login button
